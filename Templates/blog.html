@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bright Coaching classes | Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+
+<body>
+    <!-- Start Navbar section-->
+    <header class="section-navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="/">
+                    <img src="{% static 'images/Untitled_design__1_-removebg-preview.png' %}" alt="Navbar-logo-image" width="50%"
+                        height="auto">
+                </a>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li class="nav-item"><a class="nav-item" href="/">home</a></li>
+                    <li class="nav-item"><a class="nav-item" href="/about/">about</a></li>
+                    <li class="nav-item"><a class="nav-item" href="/service/">service</a></li>
+                    <li class="nav-item"><a class="nav-item" href="/blog/">blog</a></li>
+                    <li class="nav-item"><a class="nav-item" href="/contact/">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- End Navbar section -->
+
+    <!-- Blog section -->
+
+    <div class="section-blog">
+        <div class="container">
+            <h2 class="section-common-heading">
+                Explore Our Blog
+            </h2>
+            <p class="section-common-subheading">
+                Explore our blog for insightful articles, tips, and updates on the 
+                world of education, skill development, and personal growth.
+            </p>
+        </div>
+
+        <div class="container grid grid-four--cols">
+            <div class="blog">
+                <figure>
+                    <img src="https://images.pexels.com/photos/1181373/pexels-photo-1181373.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="a guy writing code">
+                </figure>
+                <div class="blog-content">
+                    <div class="blog-date">
+                        <p><i class="fa-calendar fa-solid"></i>dec 10 2025</p>
+                        <p><i class="fa-solid fa-arrow-right"></i></p>
+                    </div>
+                    <h3 class="section-common--title">
+                        code your first react app with us
+                    </h3>
+                </div>
+            </div>
+            <div class="blog">
+                <figure>
+                    <img src="https://images.pexels.com/photos/1181373/pexels-photo-1181373.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="a guy writing code">
+                </figure>
+                <div class="blog-content">
+                    <div class="blog-date">
+                        <p><i class="fa-calendar fa-solid"></i>dec 10 2025</p>
+                        <p><i class="fa-solid fa-arrow-right"></i></p>
+                    </div>
+                    <h3 class="section-common--title">
+                        code your first react app with us
+                    </h3>
+                </div>
+            </div>
+            <div class="blog">
+                <figure>
+                    <img src="https://images.pexels.com/photos/1181373/pexels-photo-1181373.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="a guy writing code">
+                </figure>
+                <div class="blog-content">
+                    <div class="blog-date">
+                        <p><i class="fa-calendar fa-solid"></i>dec 10 2025</p>
+                        <p><i class="fa-solid fa-arrow-right"></i></p>
+                    </div>
+                    <h3 class="section-common--title">
+                        code your first react app with us
+                    </h3>
+                </div>
+            </div>
+            <div class="blog">
+                <figure>
+                    <img src="https://images.pexels.com/photos/1181373/pexels-photo-1181373.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="a guy writing code">
+                </figure>
+                <div class="blog-content">
+                    <div class="blog-date">
+                        <p><i class="fa-calendar fa-solid"></i>dec 10 2025</p>
+                        <p><i class="fa-solid fa-arrow-right"></i></p>
+                    </div>
+                    <h3 class="section-common--title">
+                        code your first react app with us
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End blog section -->
+
+    <!-- start contact home section -->
+
+    <div class="section-contact--homepage" id="section-contact--homepage">
+        <div class="container grid grid-two--cols">
+            <div class="contact-content">
+                <h2 class="contact-title">Let's revolutionize the way your study</h2>
+                <p>Join our free bootcamps to know us better</p>
+                <div class="btn">
+                    <a href="/contact/">
+                        Start Now <i class="fa-solid fa-arrow-circle-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="contact-image">
+                <img src="{% static 'images/main.png' %}" alt="a guy studying on laptop">
+            </div>
+        </div>
+    </div>
+
+    <!-- End contact home section -->
+
+    <!-- start footer section -->
+
+    <footer>
+        <div class="container grid grid-four--cols">
+            <div class="footer-1--div">
+                <div class="logo-brand">
+                    <a href="/" class="footer-subheading">Bright classes</a>
+                </div>
+                <p>let's revolutionize the way you study with Bright coaching classes</p>
+            
+
+            <div class="social-footer--icons">
+                <a href="https://wa.me/919179227991" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/erkhan190/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="/">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+            </div>
+
+            <div class="footer-2--div">
+                <p class="footer-subheading"> courses</p>
+                    <ul>
+                        <li> <a href="/"> CBSC</a></li>
+                        <li> <a href="/"> NCERT</a></li>
+                        <li> <a href="/"> MP BOARD</a></li>
+                        <li> <a href="/"> BIO</a></li>
+                        <li> <a href="/"> MATHS</a></li>
+                    </ul>
+                
+            </div>
+
+            <div class="footer-3--div">
+                <p class="footer-subheading"> links</p>
+                    <ul>
+                        <li> <a href="/"> home</a></li>
+                        <li> <a href="/"> home</a></li>
+                        <li> <a href="/"> home</a></li>
+                        <li> <a href="/"> home</a></li>
+                        <li> <a href="/"> home</a></li>
+                    </ul>
+                
+            </div>
+
+            <div class="footer-4--div">
+                <p class="footer-subheading">blogs</p>
+                    <ul>
+                        <li> <a href="/"> MATHS</a></li>
+                        <li> <a href="/"> SST</a></li>
+                        <li> <a href="/"> SCINCE</a></li>
+                        <li> <a href="/"> BIO</a></li>
+                        <li> <a href="/"> CHEMISTRY</a></li>
+                    </ul>
+                
+            </div>
+
+
+        </div>
+    </footer>
+
+    <!-- End footer section -->
+</body>
+</html>     
