@@ -137,10 +137,9 @@ MEDIA_ROOT = BASE_DIR / 'media'
 import os
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
 EMAIL_HOST_USER = 'khannoushad2004@gmail.com'
-EMAIL_HOST_PASSWORD = os.environ.get("tkykhtqkylvlozla")  # Use environment variable for security
+EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_HOST_PASSWORD")  # Use environment variable for security
